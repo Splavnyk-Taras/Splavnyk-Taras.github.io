@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Description */
+
+#description {
+  margin-bottom: 27px;
+}
+
+#description img {
+  margin: 0 auto;
+  display: block;
+}
+
+#description div {
+  border: 1px solid #ebebeb;
+  padding: 45px 55px 70px 55px;
+  color: #959595;
+}
+
+#description h2 {
+  color: #4f4f4f;
+  margin-bottom: 20px;
+}
+
+#description .margin {
+  margin-bottom: 25px;
+}
+
+/* Why choose us */
+
+#whyUs {
+  color: #4f4f4f;
+  padding-bottom: 67px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 25px;
+}
+
+#whyUs span {
+  display: block;
+  font-size: 33px;
+  margin-bottom: 35px;
+}
+
+#whyUs li {
+  margin-bottom: 25px;
+}
+
+/* auth */
+
+#auth {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+#auth span {
+  display: block;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+#auth div {
+  padding: 15px 20px 15px 28px;
+  border-radius: 4px;
+  width: 440px;
+}
+
+#auth input[type="text"],
+input[type="email"] {
+  width: 155px;
+  background-color: #e8e8e8;
+  border: none;
+  padding: 5px 0px 5px 13px;
+}
+
+#auth .login {
+  background-color: #e67624;
+}
+
+#auth .login input[type="submit"] {
+  border: none;
+  background-color: #444444;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+#auth .subscribe {
+  background-color: #01d4f3;
+}
+
+#auth .subscribe input[type="submit"] {
+  background-color: rgba(129, 129, 129, 0.6);
+  border: none;
+  padding: 3px 20px;
+  color: #fff;
+}
+
+footer {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  background-color: #25262a;
+  color: #73716f;
+}
+
+footer .container {
+  display: flex;
+}
+
+footer div {
+  margin-right: 100px;
+}
+
+footer span {
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: #73716f;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer b {
+  color: #c8c8c8;
+}
+
+footer div:nth-child(3) {
+  width: 380px;
+}
+
+footer div:nth-child(3) p,
+b {
+  line-height: 22px;
+}
